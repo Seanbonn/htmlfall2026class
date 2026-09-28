@@ -9,7 +9,7 @@ h1{
     font-family: "yellowRabbit", sans-serif;
 }
 /* Now we will target the remaining h elements using grouped selector. */
-h2, h3, h4, h5. h6{
+h2, h3, h4, h5, h6{
     font-family: "Montserrat", sans-serif;
 }
 p, a, li{

@@ -1,0 +1,19 @@
+body{margin: 0;}
+
+@font-face{
+  font-family: storyScript;
+  src: url("../fonts/Story_Script/StoryScript-Regular.ttf")
+}
+
+@font-face{
+  font-family: maname;
+  src: url("../fonts/Maname/Maname-Regular.ttf")
+}
+
+h1,h2,h3,h4{
+  font-family: storyScript;
+}
+
+p{
+  font-family: maname;
+}

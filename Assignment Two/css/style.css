@@ -1,4 +1,7 @@
-body{margin: 0;}
+body{
+  margin: 0;
+  background-color: #F5E50C;
+}
 
 @font-face{
   font-family: storyScript;
@@ -10,10 +13,65 @@ body{margin: 0;}
   src: url("../fonts/Maname/Maname-Regular.ttf")
 }
 
-h1,h2,h3,h4{
+h1, h2, h3, h4{
   font-family: storyScript;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+h1{
+  font-size: 60px;
+  height: 75px;
+}
+
+h2{
+  font-size: 25px;
+  height: 30px;
+}
+
+h3{
+  font-size: 25px;
+  height: 10px;
+}
+
+h4{
+  font-size: 20px;
 }
 
 p{
   font-family: maname;
+  font-size: 20px;
+  text-align: center;
+  height: auto;
+  width: 25%;
+  padding-left: 720px;
+  padding-bottom: 5px
+}
+
+section{
+  background-color: #FFFFFF;
+}
+
+p{
+  font-weight: revert;
+  word-spacing: 5px;
+}
+
+p + p{
+  word-spacing: revert;
+  word-spacing: 5px;
+}
+
+p + p + p{
+  font-weight: bold;
+  font-size: 25px;
+  word-spacing: revert;
+}
+
+p + p + p + p{
+  font-weight: revert;
+  font-size: revert;
+  word-spacing: revert;
+  font-size: 20px;
+  word-spacing: 10px;
 }

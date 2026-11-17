@@ -1,0 +1,43 @@
+body{margin: 0;}
+
+html{
+    background-color: #242424
+}
+
+@font-face {
+    font-family: rationale;
+    src: url(../fonts/Rationale/Rationale-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1{
+    top: 0px;
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    padding-left: 30%;
+    color: white;
+    font-family: "poppins"
+}
+
+h2{
+    top: 1270px;
+    width: 45%;
+    font-size: 26px;
+    text-align: center;
+    position: absolute;
+    padding-left: 27%;
+    color: white;
+    font-family: "rationale"
+}
